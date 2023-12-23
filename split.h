@@ -11,6 +11,12 @@ struct Node
   /**
    * Initializing constructor
    */
+  Node(int v)
+  {
+    value = v;
+    next = nullptr;
+  }
+  
   Node(int v, Node* n)
   {
     value = v;
